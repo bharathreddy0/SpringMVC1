@@ -14,7 +14,7 @@ public class Student {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 
-	@Column(name = "first_name")
+	@Column(name = "first_nam")
 	private String fName;
 
 	@Column(name = "last_name")
